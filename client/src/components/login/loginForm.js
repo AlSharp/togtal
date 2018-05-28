@@ -36,7 +36,8 @@ class LoginForm extends Component {
         <div className="login-form-extra">
           <GoogleLogin
             className = 'btn btn-danger btn-block'
-            clientId = "797348459287-3g7h2epq6d1sadqk3hs97jre4c3gaegc.apps.googleusercontent.com"
+            clientId = "707617485601-9p1ph66peifjr3md64pi044qft6llgc1.apps.googleusercontent.com"  
+            // "797348459287-3g7h2epq6d1sadqk3hs97jre4c3gaegc.apps.googleusercontent.com"
             onSuccess = {this.props.responseGoogle}
             onFailure = {this.props.responseGoogle}
           >
