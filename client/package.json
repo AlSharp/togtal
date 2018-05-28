@@ -1,0 +1,45 @@
+{
+  "name": "togtal-app",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": {
+    "/api/v1/*": {
+      "target": "http://localhost:5000"
+    }
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "classnames": "^2.2.5",
+    "jquery": "^3.2.1",
+    "moment": "^2.22.1",
+    "prop-types": "^15.6.1",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.32.1",
+    "react-datepicker": "^1.4.1",
+    "react-dom": "^16.2.0",
+    "react-facebook": "^4.2.1",
+    "react-google-login": "^3.0.10",
+    "react-modal": "^3.1.10",
+    "react-redux": "^5.0.6",
+    "react-resize-detector": "^2.3.0",
+    "react-responsive": "^4.0.3",
+    "react-scripts": "1.0.17",
+    "react-spinners": "^0.2.5",
+    "redux": "^3.7.2",
+    "redux-form": "^7.2.0",
+    "redux-logger": "^3.0.6",
+    "redux-promise-middleware": "^5.0.0",
+    "redux-thunk": "^2.2.0",
+    "yarn": "^1.6.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1"
+  }
+}

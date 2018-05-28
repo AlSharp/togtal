@@ -1,0 +1,10 @@
+<svg width="340" height="190">
+	<defs>
+    	<filter id="mapmarker" x="0" y="0" width="200%" height="200%">
+      		<feOffset result="offOut" in="SourceAlpha" dx="2" dy="3" />
+            <feGaussianBlur result="blurOut" in="offOut" stdDeviation="5" />
+      		<feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+    	</filter>
+  	</defs>
+  	<path d="M30,10 h260 a20,20 0 0 1 20,20 v100 a20,20 0 0 1 -20,20 h-105 l-25,30 l-25,-30 h-105 a20,20 0 0 1 -20,-20 v-100 a20,20 0 0 1 20,-20 z" fill="blue" stroke="none" stroke-width="1" filter="url(#mapmarker)" />
+</svg>

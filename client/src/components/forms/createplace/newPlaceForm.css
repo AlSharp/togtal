@@ -1,0 +1,123 @@
+.new-place-stepper-form {
+  position: relative;
+  width: calc(100% - 42px);
+  height: 100%;
+  background-color: #fff;
+  float: right;
+  overflow-y: scroll;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.new-place-stepper-form-header {
+  width: 100%;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.new-place-stepper-form-header > i {
+  padding-top: 3px;
+  padding-right: 3px;
+  font-size: 24px;
+  float: right;
+}
+
+.new-place-stepper-form-header > i:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.step {
+  width: 100%;
+}
+
+.step-header {
+  display: flex;
+  width: 100%;
+  height: 24px;
+}
+
+.step-header-number {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-color: #78B5BC;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  line-height: 24px;
+}
+
+.step-header-number > i {
+  color: white;
+  line-height: 24px;
+}
+
+.step-header-title {
+  height: 24px;
+  line-height: 24px;
+  font-weight: 500;
+  padding-left: 5px;
+}
+
+.step-body {
+  width: 100%;
+  padding: 8px 12px 8px 12px;
+}
+
+.step-body-content {
+  border-left: 1px solid #BDBDBD;
+  padding: 12px 0 12px 17px;
+}
+
+.fv-error-addnewplace {
+  height: 17px;
+  margin-top: 5px;
+  color:red;
+  font-weight: 500;
+}
+
+.step-body-content.no-border-left {
+  border-left: 0;
+  padding: 12px 0 12px 17px;
+}
+
+.table-add-prices {
+  margin-bottom: 0;
+}
+
+.table-add-prices > thead > tr > th,
+.table-add-prices > tbody > tr > td {
+  padding: 6px 6px 4px 6px;
+}
+
+.table-add-prices > tbody > tr > td:last-child > button.btn-link {
+  padding: 0;
+}
+
+.table-add-prices > tbody > tr > td:last-child > button.btn-link > i {
+  line-height: 29px;
+}
+
+.table-add-prices > tbody > tr > td:first-child {
+  line-height: 30px;
+}
+
+.table-add-prices > tbody > tr > td > div > .form-group {
+  margin-bottom: 0;
+}
+
+.step-body-btn-nav {
+  margin: 12px 12px 0 0;
+  text-align: right;
+}
+
+.step-body-btn-nav > button {
+  margin-left: 10px;
+}
+
+.step-body-footer {
+  height: 25px;
+  border-left: 1px solid #BDBDBD;
+}
