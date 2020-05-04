@@ -1,14 +1,10 @@
 {
-  "name": "togtal-api",
+  "name": "togtal",
   "version": "1.0.0",
-  "description": "Express API - Togtal",
+  "description": "Togtal",
   "author": "Albert Sharapov",
   "license": "MIT",
   "main": "index.js",
-  "engines": {
-    "node": "8.10.0",
-    "npm": "5.7.1"
-  },
   "scripts": {
     "start": "node index.js",
     "server": "nodemon index.js",
@@ -18,14 +14,16 @@
   },
   "dependencies": {
     "body-parser": "^1.18.2",
-    "concurrently": "^3.5.1",
     "cookie-session": "^2.0.0-beta.3",
     "cors": "^2.8.4",
     "express": "^4.16.2",
     "google-id-token-verifier": "^0.2.3",
-    "mongoose": "^5.0.16",
+    "mongoose": "^5.9.11",
     "passport": "^0.4.0",
     "passport-google-id-token": "^0.4.5",
     "request": "^2.85.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
   }
 }
